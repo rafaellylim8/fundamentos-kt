@@ -80,3 +80,64 @@ fun main() {
 
  
 
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+fun main() {
+
+    //Operadores Lógicos
+    //
+    // são usados quando queremos comparar mais de uma coisa na mesma condição
+    // 
+    // && -> e
+    // || -> ou
+    // 
+    // TABELA VERDADE (com E e OU)
+    // 
+    // && - a determinada ação só acontecerá se e somente se todas as 
+    // condições forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> falso
+    // FV -> falso
+    // FF -> falso
+    // 
+    // || a determinada ação será executada se pelo menos uma das
+    // condições forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> verdadeiro 
+    // FV -> verdadeiro
+    // FF -> falso
+    //   
+    /*
+    var idade = 14
+    var acompanhadoDosPais = false 
+    
+    
+    if (idade >= 14 && acompanhadoDosPais == true){
+         println("Pode entrar")
+    }else{
+        println("Entrada não permitida")
+        
+    }     
+    */
+    // Exercício- A Seleção Brasileira está correndo risco de ser eliminada na fase de grupos
+    // da Copa, o Brasil, só pode ser classificado se a Alemanha perder, e se o próprio Brasil
+    // ganhar. As partidas já passaram,quero saber se o Brasil se classificou ou não 
+    //
+                
+    var aAlemanhaPerdeu = true
+    var oBrasilGanhou = true
+    
+    if (aAlemanhaPerdeu == true && oBrasilGanhou == false){
+        println("Brasil não foi classificado")
+    }else{
+        println("Brasil foi classificado")
+        
+    }
+        
+ 
+    
+    
+}
