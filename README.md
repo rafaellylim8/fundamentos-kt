@@ -137,7 +137,67 @@ fun main() {
         
     }
         
- 
+ // Exercício- A Seleção Brasileira está correndo risco de ser eliminada na fase de grupos
+    // da Copa, o Brasil, só pode ser classificado se a Alemanha perder, se Marrocos perder e se o próprio Brasil
+    // ganhar. As partidas já passaram,quero saber se o Brasil se classificou ou não 
+    //
+    
+    /*
+    
+    val brasil = true
+    val alemanha = false
+    val marrocos = false
+    
+    if (!alemanha && brasil && !marrocos){
+        println("Brasil classificado!")
+    }else{
+        println("Brasil não foi classificado!")
+        
+    }
+    
+    */
+    
+   //----------------------------------------------------------------------------------------------------------------------------------------------------- 
+    
+fun main() {
+
+    
+    // When - Quando
+    // 
+    // Quando uma determinada condição for verdadeira, outra determinada
+    // ação será executada
+    // 
+    // Estrutura do When:
+    // 
+    // When(var){
+    // valor -> ação a ser executada
+    // outroValor -> ação
+    // maisUm -> ação
+    // outro -> ação
+    // else -> ação
+    // }
+    // 
+    var mes = 2
+    
+    when(mes){
+        1 -> println("Acapulco - MEX")
+        2 -> println("Paris - FRA")
+        3 -> println("Berlim - ALE")
+        4 -> println("Monaco - MON")
+        5 -> println("Pequim - CHI")
+        6 -> println("Acre - BRA")
+        7 -> println("Roma - ITA")
+        8 -> println("Atenas - GRE")
+        9 -> println("Madrid - ESP")
+        10 -> println("Manchester - ING")
+        11 -> println("Dubai - EAU")
+        else -> println("São Paulo - BRA")
+        
+    }
     
     
+    
+    
+    
+}
 }
