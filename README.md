@@ -194,9 +194,73 @@ fun main() {
         else -> println("São Paulo - BRA")
         
     }
+        
+ //-------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+fun main() {
+ 
+    // Laços de Repetição
+    // 
+    // while - enquanto
+    // for - para...
+    // do... while - faça... enquanto
+    // repeat - repita
+    
+    // Laço While 
+    // enquanto uma determinada condição forr verdadeira, outra determinada
+    // ação será executada
+    // 
+    // Estrutura do While
+    // 
+    // while(condição){
+    // ação
+    // }
+    
+   /*
+    var number = 0 
+    
+    
+    while(number <= 47){
+        println(number)
+        number++   
+   */
+   
+   // Laço do... While 
+   // 
+   // Uma determinada ação será executada, enquanto outra determinada condição for
+   // verdadeira
+   // 
+   // Estrutura do do.. While
+   // 
+   // do{
+   // ação
+   // } while(condição)
+  
+   var idade = 1 
+    
+   do{
+       println("$idade anos? Cresça, sério")
+       idade 
+   }while(idade > 17) 
+    
+    
+    // Exercício -> O ano não é bissexto, portanto o ano possui 365 dias, precisa ser exibido no
+    // console, os números de 1 a 365, usando no mínimo uma variável, usando os Laços While e 
+    // do..while
+    
+    
+    var ano = 1 
+    
+    while(ano < 366){
+       println("")
+       ano++
+        
+    }
     
     
     
+ 
+}
     
     
 }
