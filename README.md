@@ -328,7 +328,92 @@ fun main() {
  
 }
     
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//POO 
+    //
+    // Programação Orientada a Objetos 
+    // 
+    // Objetos - estados (características: nome, idade, cpf)
+    // 
+    // Comportamentos - (andar, comer, dormir, conversar, programar) 
+    // 
+    // Classes - Modelos que servem para construção de objetos derivados 
+    // 
+    val pessoa1 = Pessoa()
+    pessoa1.nome = "Keyla"
+    println(pessoa1.nome)
+    pessoa1.cpf = "445.177.465.78"
+    println(pessoa1.cpf)
+}
+ 
+ class Pessoa(){
+     //declaração de atributos para a classe Pessoa
+     var nome = ""
+     var cpf = ""
+     var idade = 99 
+     var altura = 1.74 
+     
+     
+ }
+// Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um paciente
+// .Permitido usar a mesma classe Pessoa()
+
+    
+    
+fun main() {
+    
+    
+    // Exercício - Faça uma ficha médica, apontando os resultados do último checkup de um paciente
+   // Permitido usar a mesma classe Pessoa ()
+    
+
+    /*
+    
+    val pessoa1 = Pessoa()
+    pessoa1.nome = "Alana"
+    println(pessoa1.nome)
+    pessoa1.cpf = "734.173.154.73"
+    println(pessoa1.cpf)
+    pessoa1.idade = 21 
+    println(pessoa1.idade)
+    pessoa1.altura = 1.61 
+    println(pessoa1.altura)
+    pessoa1.tipoSanguineo = "AB+"
+    println(pessoa1.tipoSanguineo)
+    pessoa1.peso = 66
+    println(pessoa1.peso)
+    pessoa1.dependenteQuimico = "sim"
+    println(pessoa1.dependenteQuimico)
+    pessoa1.alergias = "não"
+    println(pessoa1.alergias)
+    pessoa1.medicação = "lítio"
+    println(pessoa1.medicação)
     
     
     
+    
+    
+}
+ 
+ class Pessoa(){
+     //declaração de atributos para a classe Pessoa
+     var nome = ""
+     var cpf = ""
+     var idade = 21 
+     var altura = 1.61 
+     var tipoSanguineo = "AB+"
+     var peso = 66
+     var dependenteQuimico = "sim"
+     var alergias = "não"
+     var medicação = "lítio"
+   
+    
+    
+    */
+   
+    
+    
+    
+}
     
