@@ -416,4 +416,79 @@ fun main() {
     
     
 }
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+fun main() {
     
+    /*
+    var jogador1 = JogadorDeFutebol("Thibaut Courtois", 1, "Guarda-Redes")
+    var jogador2 = JogadorDeFutebol("João Cancelo", 2, "Lateral-Direito")
+    var jogador3 = JogadorDeFutebol("Virgil Van Dijk", 3, "Zagueiro")
+    var jogador4 = JogadorDeFutebol("Marquinhos", 4, "Zagueiro")
+    var jogador5 = JogadorDeFutebol("Theo Hernández", 6, "Lateral-Esquerdo")
+    var jogador6 = JogadorDeFutebol("Casemiro", 5, "Volante")
+    var jogador7 = JogadorDeFutebol("Bruno Guimarães", 8, "Meio-Campo")
+    var jogador8 = JogadorDeFutebol("Neymar Jr", 10, "Meia-Armador")
+    var jogador9 = JogadorDeFutebol("Lionel Messi", 30, "Ponta-Esquerda")
+    var jogador10 = JogadorDeFutebol("Vini Jr", 7, "Ponta-Esquerda")
+    var jogador11 = JogadorDeFutebol("Earling Haaland", 9, "Controavante")
+    
+    println(jogador1.nome + " - " + jogador1.numeroDaCamisa + " - " + jogador1.posicao)
+    println(jogador2.nome + " - " + jogador2.numeroDaCamisa + " - " + jogador2.posicao)
+    println(jogador3.nome + " - " + jogador3.numeroDaCamisa + " - " + jogador3.posicao)
+    println(jogador4.nome + " - " + jogador4.numeroDaCamisa + " - " + jogador4.posicao)
+    println(jogador5.nome + " - " + jogador5.numeroDaCamisa + " - " + jogador5.posicao)
+    println(jogador6.nome + " - " + jogador6.numeroDaCamisa + " - " + jogador6.posicao)
+    println(jogador7.nome + " - " + jogador7.numeroDaCamisa + " - " + jogador7.posicao)
+    println(jogador8.nome + " - " + jogador8.numeroDaCamisa + " - " + jogador8.posicao)
+    println(jogador9.nome + " - " + jogador9.numeroDaCamisa + " - " + jogador9.posicao)
+    println(jogador10.nome + " - " + jogador10.numeroDaCamisa + " - " + jogador10.posicao)
+    println(jogador11.nome + " - " + jogador11.numeroDaCamisa + " - " + jogador11.posicao)
+    
+    
+    //Exercício - Faça a escalação do seu time exibindo nome, número da camisa e posição
+    //no mínimo 11 jogadores
+    //permitido inventar jogadores
+    */
+    
+    
+    //Métodos/funções - são um grupo de ações que representam uma determinada atividade de um
+    //determinado objeto
+    //
+    // Estrutura de um método no Kotlin
+    // 
+    // fun nomeDela (parametros - se tiver){
+    // ações 
+    // }
+    // 
+    // 
+    // var nomeDoObjeto = classeDele
+    // 
+    // nomeDoObjeto.nomeDela()
+    
+    
+    
+}
+class JogadorDeFutebol(var nome: String,
+                       var numeroDaCamisa: Int,
+                       var posicao: String){
+    
+   
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
