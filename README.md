@@ -492,3 +492,66 @@ class JogadorDeFutebol(var nome: String,
     
     
 }
+
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+fun main() {
+    
+}
+
+class ContaBanco(val num: Long, var saldo: Double, var dono: String){
+    
+    
+    //Consultar Saldo, Saque e Deposito
+    //
+    // Monitora - Oiiii <3 
+    //
+    fun consultarSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+    } 
+    
+    fun saque(valor: Double, senha: Int){
+        
+        if(senha == 2984){
+            if(saldo >= valor){
+                saldo -= valor // vai subtrair o Valor do Saldo
+                println("Saque de R$$valor realizado com sucesso ☺")
+            }else if(valor <= 0){
+                println("Impossível sacar R$$valor") 
+            }else{
+                println("Saldo Insuficiente, saque de R$$valor não realizado")
+            }
+        }else{
+            println("Senha Incorreta! Tente novamente")
+        }
+        
+        
+    }
+    
+    
+    
+    // Exercício - Depósito na conta do banco
+    
+    
+    fun depositoEmConta(){
+        println("Depósito realizado com sucesso")
+        
+    }     
+        
+    fun deposito(valor: Double, senha: Int){
+        
+        if(senha == 3701){
+            if(valor > 0)
+                saldo += valor // vai adicionar o valor do depósito
+                println("Depósito de R$$valor realizado com sucesso ☺")
+            }else{
+                println("Impossível depositar R$$valor") 
+        }else{
+            println("Senha Incorreta! Tente novamente")
+
+    }
+       
+            
+}
